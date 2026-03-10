@@ -6,14 +6,12 @@ class StudentController{
 
 public function index()
 {
-    echo '<h1> daftar siswa </h1>';
-    echo '<p> menampilkan daftar siswa </p>';
+    require_once '../app/views/Students/index.php';
 }
 
 public function create()
 {
-    echo '<h1> dtambah siswa siswa </h1>';
-    echo '<p> menampilkan form tambah siswa </p>';
+    require_once '../app/views/Students/create.php';
 }
 
 }

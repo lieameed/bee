@@ -35,6 +35,7 @@
     </div>
     <br>
 
+    <h1 class="p-4 text-xl font-bold shadow rounded-lg">my kagari totally</h1>
     <img src="./assets/kagari.png" alt="" class="w-[420px] h-[320px] p-4 flex items-center justify-center">
     <footer class="bg-gray-800 text-white">
         <div class="flex justify-center container mx-auto p-4 py-6">

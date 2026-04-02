@@ -1,2 +1,3 @@
 @import "tailwindcss";
-
+@source "../../app/views/STUDENTS/index.php"; /* Sesuaikan dengan lokasi file view kamu */
+@source "../../resources/**/*.js";

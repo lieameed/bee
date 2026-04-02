@@ -26,7 +26,7 @@
     <h2>gimme reason why marvin sucks ass</h2>
     <input type="textfield" placeholder="marvin sucks ass">
     
-    <main class="mx-auto space-y-2">
+    <main class="mx-auto space-y-2 grow">
         <div class="shadow rounded-lg p-4 bg-white">
             <h1 class="text-2xl font-bold">orang gila</h1>
             <p>kata marvin ya gitu</p>
@@ -63,15 +63,16 @@
                 </tbody>
             </table>
         </div>
+
+        <h1 class="p-4 text-xl font-bold shadow rounded-lg">my kagari totally</h1>
+    
+        <div class="flex justify-center">
+        <img src="./assets/kagari.png" alt="" class="w-[420px] h-[320px] p-4 flex">
+        </div>
     </main>
     </div>
     <br>
 
-    <h1 class="p-4 text-xl font-bold shadow rounded-lg">my kagari totally</h1>
-    
-    <div class="flex justify-center">
-    <img src="./assets/kagari.png" alt="" class="w-[420px] h-[320px] p-4 flex">
-    </div>
 
     <footer class="bg-gray-800 text-white">
         <div class="flex justify-center container mx-auto p-4 py-6">

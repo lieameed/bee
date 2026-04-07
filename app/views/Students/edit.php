@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar Siswa</title>
+    <title>Edit Siswa</title>
     <link rel="stylesheet" href="/css/output.css">
 </head>
 <body class="bg-gray-100 flex flex-col min-h-screen">
@@ -18,7 +18,8 @@
     
         <main class="mx-auto space-y-2">
             <div class="shadow rounded-lg p-4 bg-white">
-                <h1 class="text-2xl font-bold">Tambah Mahluk Idup</h1>
+                <h1 class="text-2xl font-bold">Edit Mahluk Hidup</h1>
+                <p>Melakukan Perubahan</p>
             </div>
 
             <div class="bg-white shadow rounded-lg p-10">

@@ -1,67 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Siswa</title>
-    <link rel="stylesheet" href="/css/output.css">
-</head>
-<body class="bg-gray-100 flex flex-col min-h-screen">
-    <header class="bg-blue-500 text-white">
-        <div class="flex justify-between container mx-auto p-4 py-6">
-            <a href="/students" class="font-bold text-2xl">Sistem Sekolah</a>
-            <a href="/students/create" class="text- xl bg-white text-blue-500 px-4 py-2 rounded-lg">+ Tambah Siswa</a>
+<div class="shadow rounded-lg p-4 bg-white">
+    <h1 class="text-2xl font-bold">Edit Mahluk Hidup</h1>
+    <p>Melakukan Perubahan</p>
+</div>
+
+<div class="bg-white shadow rounded-lg p-10">
+    <form class="grid grid-cols-2 gap-4">
+
+        <div class="space-y-2">
+            <label class="font-bold">Nama</label>
+            <input class="w-full border border-gray-300 px-4 py-2 rounded-lg">
         </div>
-    </header>
 
-    <div class="p-4 flex-grow">     
-    
-        <main class="mx-auto space-y-2">
-            <div class="shadow rounded-lg p-4 bg-white">
-                <h1 class="text-2xl font-bold">Edit Mahluk Hidup</h1>
-                <p>Melakukan Perubahan</p>
-            </div>
-
-            <div class="bg-white shadow rounded-lg p-10">
-                <form class="grid grid-cols-2 gap-4">
-
-                    <div class="space-y-2">
-                        <label class="font-bold">Nama</label>
-                        <input class="w-full border border-gray-300 px-4 py-2 rounded-lg">
-                    </div>
-
-                    <div class="space-y-2">
-                        <label class="font-bold">NIS</label>
-                        <input class="w-full border border-gray-300 px-4 py-2 rounded-lg">
-                    </div>
-
-                    <div class="space-y-2">
-                        <label class="font-bold">Kelas</label>
-                        <input class="w-full border border-gray-300 px-4 py-2 rounded-lg">
-                    </div>
-
-                    <div class="space-y-2">
-                        <label class="font-bold">No Telp</label>
-                        <input class="w-full border border-gray-300 px-4 py-2 rounded-lg">
-                    </div>
-
-                    <div class="col-span-2 flex justify-end gap-4">
-                        <a href="/students" class="py-2 px-4 bg-gray-100 rounded-lg">Kembali</a>
-                        <button type="submit" class="px-4 py-2 bg-blue-500 rounded-lg text-white">
-                            Simpan
-                        </button>
-                    </div>
-
-                </form>
-            </div>
-
-        </main>
-    </div>
-    <footer class="bg-gray-800 text-white">
-        <div class="flex justify-center container mx-auto p-4 py-6">
-            &copy <?= date('Y')?> Sistem Sekolah SMK Kristen Immanuel
+        <div class="space-y-2">
+            <label class="font-bold">NIS</label>
+            <input class="w-full border border-gray-300 px-4 py-2 rounded-lg">
         </div>
-    </footer>
 
-</body>
-</html>
+        <div class="space-y-2">
+            <label class="font-bold">Kelas</label>
+            <input class="w-full border border-gray-300 px-4 py-2 rounded-lg">
+        </div>
+
+        <div class="space-y-2">
+            <label class="font-bold">No Telp</label>
+            <input class="w-full border border-gray-300 px-4 py-2 rounded-lg">
+        </div>
+
+        <div class="col-span-2 flex justify-end gap-4">
+            <a href="/students" class="py-2 px-4 bg-gray-100 rounded-lg">Kembali</a>
+            <button type="submit" class="px-4 py-2 bg-blue-500 rounded-lg text-white">
+                Simpan
+            </button>
+        </div>
+
+    </form>
+</div>

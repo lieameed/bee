@@ -10,7 +10,7 @@ class Controller
         $view = str_replace(
             '.',
             '/',
-            $view 
+            $view
         );
         $content = "../app/views/{$view}.php";
 

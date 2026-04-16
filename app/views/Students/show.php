@@ -7,22 +7,23 @@
 
         <div class="space-y-2">
             <label class="font-bold">Nama</label>
-            <input class="w-full border border-gray-300 px-4 py-2 rounded-lg" readonly>
+            <input value="<?= $student['name'] ?>" class="w-full border border-gray-300 px-4 py-2 rounded-lg" readonly>
         </div>
 
         <div class="space-y-2">
             <label class="font-bold">NIS</label>
-            <input class="w-full border border-gray-300 px-4 py-2 rounded-lg" readonly>
+            <input value="<?= $student['nis'] ?>" class="w-full border border-gray-300 px-4 py-2 rounded-lg" readonly>
         </div>
 
         <div class="space-y-2">
             <label class="font-bold">Kelas</label>
-            <input class="w-full border border-gray-300 px-4 py-2 rounded-lg" readonly>
+            <input value="<?= $student['class'] ?>" class="w-full border border-gray-300 px-4 py-2 rounded-lg" readonly>
         </div>
 
         <div class="space-y-2">
             <label class="font-bold">No Telp</label>
-            <input class="w-full border border-gray-300 px-4 py-2 rounded-lg" readonly>
+            <input value="<?= $student['phone_number'] ?>" class="w-full border border-gray-300 px-4 py-2 rounded-lg"
+                readonly>
         </div>
 
         <div class="col-span-2 flex justify-end gap-4">

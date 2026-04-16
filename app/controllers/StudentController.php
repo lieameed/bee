@@ -26,6 +26,14 @@ class StudentController extends Controller
 
     public function show(string $id)
     {
+        $id = intval($id);
+
+        $studentModel = new Student();
+        $student = $studentModel->getStudent($id);
+
+        $this->view('students.show', [
+            'student' => $student
+        ]);
         $this->view('students.show');
     }
 

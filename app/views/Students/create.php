@@ -5,7 +5,7 @@
     </div>
  
     <div class="bg-white shadow rounded-lg p-4">
-       <form action="" class="grid grid-cols-2 gap-4">
+       <form action="/students" method="POST" class="grid grid-cols-2 gap-4">
         <div class="space-y-2">
             <label class="block text-gray-700 font-bold mb-2" for="name">Nama</label>
             <input type="text" name="name" id="name" placeholder="Masukkan nama siswa" class="w-full border px-4 py-2 rounded-lg">
